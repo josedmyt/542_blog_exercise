@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 12, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nServing Up Predictions: How Machine Learning Can Forecast Tennis Matches\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 9, 2026\n\n\nJose Davila\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 9, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html",
+    "href": "posts/preticting-tennis/index.html",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "",
+    "text": "Tennis fans love a good underdog story: an unseeded player taking down a top-ranked star, or a surprise comeback in a Grand Slam final. But what if you could look beyond intuition and hunches and actually estimate the likelihood of a player winning a match? This is where machine learning (ML) comes into play. By analyzing historical match data, ML models can detect patterns in player performance, surface preferences, time of year, and head-to-head results, helping fans, coaches, and analysts better understand match outcomes.\nPredicting tennis match outcomes is no longer just a fun experiment; it has become a serious area of sports analytics. With hundreds of matches played every year and player performance data more accessible than ever, it is now possible to build models that not only summarize past performance but also provide insights into future matches. For fans like Jose, who plays tennis recreationally and follows professional tournaments, machine learning offers a new way to engage with the sport by combining tennis knowledge with data-driven analysis."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#introduction",
+    "href": "posts/preticting-tennis/index.html#introduction",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "",
+    "text": "Tennis fans love a good underdog story: an unseeded player taking down a top-ranked star, or a surprise comeback in a Grand Slam final. But what if you could look beyond intuition and hunches and actually estimate the likelihood of a player winning a match? This is where machine learning (ML) comes into play. By analyzing historical match data, ML models can detect patterns in player performance, surface preferences, time of year, and head-to-head results, helping fans, coaches, and analysts better understand match outcomes.\nPredicting tennis match outcomes is no longer just a fun experiment; it has become a serious area of sports analytics. With hundreds of matches played every year and player performance data more accessible than ever, it is now possible to build models that not only summarize past performance but also provide insights into future matches. For fans like Jose, who plays tennis recreationally and follows professional tournaments, machine learning offers a new way to engage with the sport by combining tennis knowledge with data-driven analysis."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#why-tennis-match-prediction-matters",
+    "href": "posts/preticting-tennis/index.html#why-tennis-match-prediction-matters",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "Why Tennis Match Prediction Matters",
+    "text": "Why Tennis Match Prediction Matters\nTennis is not just about skill. Strategy, momentum, and sometimes even luck play a major role in determining match outcomes. Analysts track a wide range of statistics, from serve speeds to break point conversion rates, to better understand how players perform under different conditions. Predicting match outcomes allows fans to engage with matches more deeply, helps coaches fine-tune training strategies, and enables betting companies to set more informed odds.\nRecent data is especially important for predictive modeling. Using match results from the past two years allows analysts to capture a player’s current form without being influenced by outdated performances. A player who struggled several seasons ago but has improved recently would be unfairly penalized if older data dominated the model. On the other hand, focusing on too small of a recent window can lead to overfitting. Striking the right balance ensures predictions reflect realistic expectations for upcoming matches."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#how-machine-learning-enters-the-court",
+    "href": "posts/preticting-tennis/index.html#how-machine-learning-enters-the-court",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "How Machine Learning Enters the Court",
+    "text": "How Machine Learning Enters the Court\nMachine learning may sound intimidating, but the core idea is simple: algorithms learn patterns from past examples. In tennis, this means studying historical match outcomes to identify trends that can help predict future results. For example, a model might learn that Player A performs significantly better on clay courts than on hard courts, or that Player B consistently struggles against aggressive baseline players.\nFeatures, also known as inputs, play a crucial role in this process. Common features used in tennis prediction models include:\n\nWin–loss records: How consistently a player has won matches recently\nSurface-specific performance: Results on clay, grass, or hard courts\nHead-to-head records: Previous outcomes against specific opponents\nTournament type and stage: Differences in performance between Grand Slams and smaller tournaments\n\nUnlike traditional ranking systems, which mainly rely on accumulated points, machine learning models can evaluate many of these factors at once. They can also be updated as new matches are played, giving analysts a more flexible and nuanced understanding of expected match outcomes."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#building-a-tennis-prediction-model",
+    "href": "posts/preticting-tennis/index.html#building-a-tennis-prediction-model",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "Building a Tennis Prediction Model",
+    "text": "Building a Tennis Prediction Model\nBehind every prediction lies a structured modeling process. While the technical details can be complex, the overall workflow can be broken down into four main steps.\n\nData Collection Match results, player statistics, and tournament details are gathered from public datasets, ATP and WTA websites, or sports data APIs. These sources provide comprehensive historical records needed for training models.\nFeature Selection Relevant variables are chosen to represent factors that influence match outcomes. These may include serve percentages, recent win–loss ratios, surface performance, and indicators of fatigue. Careful feature selection helps prevent the model from learning misleading patterns.\nModel Training The selected features are fed into a machine learning algorithm such as logistic regression or random forests. The model learns by associating feature patterns with known match outcomes.\nEvaluation The trained model is tested on unseen matches to assess performance. Metrics such as accuracy, precision, and recall are used to evaluate how well the model predicts winners.\n\nThis structured approach allows analysts to move from raw match data to meaningful predictions in a systematic and reproducible way."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#real-world-applications-and-case-studies",
+    "href": "posts/preticting-tennis/index.html#real-world-applications-and-case-studies",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "Real-World Applications and Case Studies",
+    "text": "Real-World Applications and Case Studies\nOne of the most well-known applications of tennis match prediction is sports betting. Bookmakers set odds based on expected outcomes, but these odds do not always perfectly represent true winning probabilities. If a machine learning model can estimate match outcomes more accurately than the probabilities implied by betting odds, it becomes possible to identify value bets, where the potential payout is higher than the true likelihood of winning. Over time, consistently finding such inefficiencies can provide a statistical edge.\nBeyond betting, machine learning predictions are also useful for coaches and analysts. They can be used to prepare strategies for upcoming opponents, scout potential recruits by simulating matchups, and analyze long-term performance trends to adjust training focus.\nConsider a simple example. Suppose a machine learning model predicts that an underdog has a 40% chance of defeating a top-ranked player in an upcoming clay court match, while betting odds suggest only a 25% probability. If the model has demonstrated strong historical accuracy, this discrepancy may indicate an opportunity to outperform expectations."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#challenges-and-limitations",
+    "href": "posts/preticting-tennis/index.html#challenges-and-limitations",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "Challenges and Limitations",
+    "text": "Challenges and Limitations\nDespite their strengths, machine learning models cannot predict tennis matches with complete certainty. Players may suffer injuries, experience fatigue, or simply have off days, factors that are difficult to quantify. External conditions such as weather, court speed, and travel schedules can also influence outcomes in unpredictable ways.\nOverfitting is another common challenge. A model that learns patterns too closely tied to past matches may fail to generalize to future games. Regular evaluation on new data and thoughtful feature selection help reduce this risk. It is also important to communicate results clearly, emphasizing that machine learning provides probabilities rather than guarantees."
+  },
+  {
+    "objectID": "posts/preticting-tennis/index.html#conclusion-smarter-tennis-watching-with-data",
+    "href": "posts/preticting-tennis/index.html#conclusion-smarter-tennis-watching-with-data",
+    "title": "Serving Up Predictions: How Machine Learning Can Forecast Tennis Matches",
+    "section": "Conclusion: Smarter Tennis Watching with Data",
+    "text": "Conclusion: Smarter Tennis Watching with Data\nMachine learning is transforming how we analyze and understand tennis. By combining historical data with statistical modeling, ML systems offer insights that go beyond intuition alone. While no model can predict every ace or upset, data-driven approaches provide valuable perspectives for fans, analysts, and coaches.\nUltimately, machine learning should be seen as a tool to enhance understanding rather than replace human judgment. When interpreted carefully, predictive models can help fans analyze matches more intelligently, identify potential surprises, and engage in deeper discussions about player performance. In a sport as dynamic as tennis, data may not predict everything, but it certainly helps us ask better questions."
+  }
+]
